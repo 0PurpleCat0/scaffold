@@ -10,3 +10,5 @@ lint:
 	
 test:
 	python -m pytest -vv -conv=hello test_hello.py
+	
+# all: install lint test
